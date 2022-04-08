@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.options import Options
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
-driver = webdriver.Chrome(chrome_options=chrome_options, executable_path='/home/butovich_v/workspace/atsore/driver/chromedriver_lnx')
+driver = webdriver.Chrome(chrome_options=chrome_options, executable_path='/home/butovich_v/workspace/atsore/drivers/chromedriver_lnx')
 
 
 def authorize(adress, login_path, login, password_path, password, button, path):
